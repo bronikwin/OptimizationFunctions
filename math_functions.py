@@ -3,7 +3,12 @@
 Created by 'kolya' on 01.06.2022 at 1:38
 """
 import numpy as np
+""" 
+pack of math functions classes to test your optimization algorithms 
 
+you can use root_2D to plot these roots to contour map or use root_3D to plot
+these roots to surface map
+"""
 
 class Himmelblau:
     def calc(self, x_grid, y_grid):
